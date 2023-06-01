@@ -51,11 +51,14 @@ h3 {
 
 a {
   text-decoration: none;
-  color: rgb(176, 234, 248)
+  color: rgb(176, 234, 248);
+  /* transition-duration: 1s; */
 }
 
 a:hover {
   color: white;
+  speed: 2s;
+  transition: 1s ease;
 }
 
 .button {
@@ -72,6 +75,7 @@ a:hover {
 a.button:hover {
   background-image: url('images/rocket-league-small.jpg');
   background-color: rgb(22, 17, 108);
+  background-position: center;
   text-shadow:  -1px 1px 0 #000,
                 1px 1px 0 #000,
                 1px -1px 0 #000,
